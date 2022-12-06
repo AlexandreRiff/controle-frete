@@ -28,4 +28,13 @@ public class FreteModel {
     public void setValor(double valor) {
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        return "FreteModel {" +
+                "destino='" + destino + '\'' +
+                ", peso=" + peso +
+                ", valor=" + valor +
+                '}';
+    }
 }

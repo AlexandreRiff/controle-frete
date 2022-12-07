@@ -31,7 +31,7 @@ public class FreteModel {
 
     @Override
     public String toString() {
-        return "FreteModel {" +
+        return "Relatório Diário: {" +
                 "destino='" + destino + '\'' +
                 ", peso=" + peso +
                 ", valor=" + valor +

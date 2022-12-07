@@ -67,8 +67,6 @@ public class MenuFrete {
         menuDestino.append("[ 1 ] - Santa Catarina");
         menuDestino.append("\n");
         menuDestino.append("[ 2 ] - Sao Paulo");
-        menuDestino.append("\n");
-        menuDestino.append("[ 3 ] - Sair");
         menuDestino.append("\n\n");
         menuDestino.append("Informe sua opcao: ");
 

@@ -10,7 +10,7 @@ public class RelatorioDiarioThread extends Thread {
 
     @Override
     public void run() {
-        final long DIA_EM_MILISEGUNDOS = 86400000;
+        final long DIA_EM_MILISEGUNDOS = 10000;//86400000
         while (true) {
             FreteRepository instanciaFreteRepository = FreteRepository.getInstance();
             System.out.println(instanciaFreteRepository.buscarTudo().toString());
